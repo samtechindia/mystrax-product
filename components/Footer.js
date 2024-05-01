@@ -3,14 +3,19 @@ import React from "react";
 const Footer = () => {
 	return (
 		<div>
-			<div className="container newsletter mt-5 wow fadeIn " data-wow-delay="0.1s">
+			<div
+				className="container newsletter mt-5 wow fadeIn "
+				data-wow-delay="0.1s"
+			>
 				<div className="row justify-content-center">
 					<div className="col-lg-10 border rounded p-1">
 						<div className="border rounded text-center p-1">
 							<div className="bg-white rounded text-center p-5">
 								<h4 className="mb-4 font-bold text-xl">
 									Subscribe Our &nbsp;
-									<span className="text-[#FEA116] text-uppercase">Newsletter</span>
+									<span className="text-[#FEA116] text-uppercase">
+										Newsletter
+									</span>
 								</h4>
 								<div className="position-relative mx-auto max-w-[400px]">
 									<input
@@ -43,10 +48,7 @@ const Footer = () => {
 								</a>
 								<p className="text-white mb-0">
 									Download
-									<a
-										className="text-dark fw-medium"
-										href="https://htmlcodex.com/hotel-html-template-pro"
-									>
+									<a className="text-dark fw-medium" href="/">
 										Hotelier – Premium Version
 									</a>
 									, build a professional website for your hotel business and
@@ -58,7 +60,7 @@ const Footer = () => {
 							<h6 className="section-title text-start text-[#FEA116] text-uppercase mb-4">
 								Contact
 							</h6>
-							<p className="mb-3 flex gap-2 items-center ">
+							<div className="mb-3 flex gap-2 items-center ">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 24 24"
@@ -73,8 +75,8 @@ const Footer = () => {
 									B-33, 1st floor, Kasturba Nagar, Near Chetak Bridge,
 									Bhopal-462023
 								</h6>
-							</p>
-							<p className="mb-2 flex gap-2 items-center">
+							</div>
+							<div className="mb-2 flex gap-2 items-center">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 24 24"
@@ -88,8 +90,8 @@ const Footer = () => {
 								<h6 className="text-sm">
 									0755-493-7957, <br /> +91-77709-63303, <br /> 91-76979-80782
 								</h6>
-							</p>
-							<p className="my-3 flex gap-2 items-center">
+							</div>
+							<div className="my-3 flex gap-2 items-center">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 24 24"
@@ -101,7 +103,7 @@ const Footer = () => {
 									<path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path>
 								</svg>
 								<h6 className="text-sm">contact@shivomsecuranation.com</h6>
-							</p>
+							</div>
 
 							<div className="d-flex gap-2 pt-2">
 								<a className="btn btn-outline-light btn-social" href="">
