@@ -37,13 +37,13 @@ function Navbar() {
 								href="/About"
 								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
 							>
-								ABOUT
+								ABOUT-3
 							</Link>
 							<Link
 								href="/Services"
 								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
 							>
-								FEATURES
+								FEATURES-9
 							</Link>
 							<Link
 								href="/Find"
