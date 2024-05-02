@@ -3,27 +3,43 @@ import React from "react";
 
 const BillingDashboard = () => {
 	return (
-		<div className="bg-[#F8F8F8] flex lg:flex-row flex-col items-center justify-between w-full lg:p-10 font-['PP_Neue_Machina_Inktrap_Medium'] text-yellow-600">
-			<div className="lg:w-1/2 w-full">
-				<h1 className="text-5xl  font-semibold p-10 ">Billing Dashboard</h1>
-				<h3 className="text-2xl  font-semibold pb-5 px-10">
-					Lorem, ipsum dolor.
-				</h3>
-				<p className="text-sm  font-semibold px-10 ">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-					architecto, harum asperiores cupiditate vel minus placeat minima animi
-					voluptatem aliquid mollitia magni impedit veritatis iste iusto, velit
-					laboriosam nesciunt alias!
-				</p>
+		<div className="mt-20">
+			<div className="flex flex-col items-center font-['PP_Neue_Machina_Inktrap_Medium'] text-yellow-700">
+				<h1 className="text-5xl  font-semibold pt-4  text-center ">
+					Billing Dashboard
+				</h1>
+				<h3 className="text-sm  font-semibold p-2">Lorem, ipsum dolor.</h3>
 			</div>
-			<div className="lg:w-1/2 w-full bg-[#F8F8F8]">
-				<Image
-					src="/media/poster8.jpg"
-					alt="poster-5"
-					height={900}
-					width={900}
-					className=" pt-10"
-				/>
+			<div className="flex lg:flex-row flex-col items-center justify-between w-full lg:px-10 font-['PP_Neue_Machina_Inktrap_Medium'] text-yellow-900">
+				<div className=" lg:w-2/3 w-full bg-[#FDFDFD]">
+					<Image
+						src="/media/poster8.jpg"
+						alt="poster-5"
+						height={900}
+						width={900}
+					/>
+				</div>
+
+				<div className="lg:w-1/3 w-full flex flex-col gap-3 ">
+					<div className=" shadow  ml-3 bg-yellow-50 hover:bg-yellow-500 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-yellow-500 p-4 ">
+						<p className="text-sm  font-semibold  ">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+							architecto
+						</p>
+					</div>
+					<div className=" shadow  ml-3 bg-yellow-50 hover:bg-yellow-500 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-yellow-500 p-4 ">
+						<p className="text-sm  font-semibold  ">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+							architecto
+						</p>
+					</div>
+					<div className=" shadow  ml-3 bg-yellow-50 hover:bg-yellow-500 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-yellow-500 p-4 ">
+						<p className="text-sm  font-semibold  ">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+							architecto
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

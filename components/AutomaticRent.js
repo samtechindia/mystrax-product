@@ -4,52 +4,71 @@ import React from "react";
 
 const AutomaticRent = () => {
 	return (
-		<div className=" w-full bg-[#fffef8] items-center flex justify-center">
-			<div className="relative bg-clip-border m-7 rounded-xl bg-white text-orange-900 shadow-md lg:w-full lg:max-w-[90vw] lg:flex-row">
+		<div className=" w-full bg-[#eafdff63] items-center flex justify-center">
+			<div className="relative bg-clip-border m-7 rounded-xl bg-white  shadow-md lg:w-full lg:max-w-[90vw] lg:flex-row">
 				<div className=" font-bold text-5xl w-full  ">
-					<h1 className="flex justify-center ml-10 lg:-ml-10 my-10 text-[#D19C0A] font-['PP_Neue_Machina_Inktrap_Medium']">
+					<h1 className="flex justify-center ml-10 lg:-ml-10 my-10 text-slate-800 font-['PP_Neue_Machina_Inktrap_Medium']">
 						All Tenant details in one place
 					</h1>
 				</div>
 
 				<div className="flex flex-col lg:flex-row">
-					<div className="m-2  lg:ml-10  font-['PP_Neue_Machina_Inktrap_Medium'] text-orange-900 ">
+					<div className="m- lg:ml-10  font-['PP_Neue_Machina_Inktrap_Medium'] ">
 						<div>
 							<Link
 								href="#"
-								className="block max-w-sm py-4 px-6 m-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className=" w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight   dark:text-white">
 									Audit Facility
 								</h5>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
 									Easy Electricity bill collection
 								</h5>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									Automatic payment reminders
 								</h5>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									Backup facility on Google cloud
 								</h5>
 							</Link>
@@ -59,19 +78,28 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block max-w-sm py-4 px-6 m-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
 									Expense and Sales Report
 								</h5>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
 									Easy record of Tenant
 								</h5>
 							</Link>
@@ -79,9 +107,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									S-mart online and digital Tenat Regestration
 								</h5>
 							</Link>
@@ -89,9 +121,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									S-mart and Digital Account
 								</h5>
 							</Link>
@@ -101,9 +137,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block max-w-sm py-4 px-6 m-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97] text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
 									Easy managable rooms
 								</h5>
 							</Link>
@@ -111,9 +151,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight  dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
 									Tenant App : Fortransparency and easy records
 								</h5>
 							</Link>
@@ -121,9 +165,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									Easily manage employees data
 								</h5>
 							</Link>
@@ -131,9 +179,13 @@ const AutomaticRent = () => {
 						<div>
 							<Link
 								href="#"
-								className="block m-6 max-w-sm py-4 px-6 bg-white border border-orange-100 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+								className="w-[18rem] py-4 px-6 m-6 border rounded-lg shadow group relative inline-block overflow-hidden  border-gray-100 bg-[#eafdff97]  text-sm font-medium text-slate-800 hover:text-cyan-800 focus:outline-none focus:ring active:bg-cyan-800 active:text-white"
 							>
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight dark:text-white">
+								<span class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
+								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
 									Just 1 app to manage everything
 								</h5>
 							</Link>

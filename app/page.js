@@ -19,7 +19,6 @@ const page = () => {
 		<div>
 			{/* <Carousel /> */}
 			<Homepage />
-			<Tenant />
 			<AutomaticRent />
 			<Getapp />
 
@@ -34,6 +33,7 @@ const page = () => {
 			<RegestrationBoard />
 			<BillingDashboard />
 
+			<Tenant />
 			<Subscription />
 		</div>
 	);
