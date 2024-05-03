@@ -23,7 +23,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight   dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									Audit Facility
 								</h5>
 							</Link>

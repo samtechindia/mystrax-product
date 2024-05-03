@@ -11,7 +11,7 @@ const Services = () => {
 					Explore our <span className="text-[#9e6818]">Services</span>
 				</h2>
 				<ul className="mt-16 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3">
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services">
 							<img
 								src="/media/poster1.jpg"
@@ -27,7 +27,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services">
 							<img
 								src="/media/poster2.jpg"
@@ -43,7 +43,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services">
 							<img
 								src="/media/poster3.jpg"
@@ -59,7 +59,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] b px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] b px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/poster4.jpg"
@@ -75,7 +75,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/poster5.jpg"
@@ -91,7 +91,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/poster6.jpg"
@@ -107,7 +107,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/poster7.jpg"
@@ -123,7 +123,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/poster8.jpg"
@@ -139,7 +139,7 @@ const Services = () => {
 							</p>
 						</a>
 					</li>
-					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#FEA31A] hover:transition hover:text-white shadow-sm">
+					<li className="rounded-xl bg-[#fff] px-6 py-8 hover:bg-[#ED7C24] hover:transition hover:text-white shadow-sm">
 						<a href="/Services" className="group">
 							<img
 								src="/media/mobile.png"

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -10,142 +11,181 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="bg-white lg:fixed lg:w-full lg:z-20 lg:top-0 shadow-lg">
-			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div className="h-16 flex items-center justify-between">
-					<div className="flex items-center">
-						<div className="flex-shrink-0">
-							<Link href="/">
-								<Image
-									src="/media/logoimage.jpeg"
-									alt="logo"
-									height={110}
-									width={110}
-								/>
-							</Link>
+		<div class="  lg:fixed lg:top-0 z-50 container-fluid bg-dark px-0">
+			<div class="row gx-0">
+				<div class="col-lg-3 bg-dark d-none d-lg-block">
+					<a
+						href="/"
+						class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+					>
+						<Image
+							src="/media/smart-hostel-PG-02.png"
+							alt="logo"
+							height={100}
+							width={200}
+						/>
+					</a>
+				</div>
+				<div class="col-lg-9">
+					<div class="row gx-0 bg-white d-none d-lg-flex">
+						<div class="col-lg-7 px-5 text-start">
+							<div class="h-100 d-inline-flex align-items-center py-2 me-4">
+								<i class="fa fa-envelope text-primary me-2"></i>
+								<p class="mb-0">shivom000@gmail.com</p>
+							</div>
+							<div class="h-100 d-inline-flex align-items-center py-2">
+								<i class="fa fa-phone-alt text-primary me-2"></i>
+								<p class="mb-0">+91-7879868904</p>
+							</div>
 						</div>
-					</div>
-					<div className="hidden md:block ">
-						<div className="ml-4 flex items-center space-x-3">
-							<Link
-								href="/"
-								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-							>
-								Home
-							</Link>
-							<Link
-								href="/About"
-								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-							>
-								ABOUT
-							</Link>
-							<Link
-								href="/Services"
-								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-							>
-								FEATURES
-							</Link>
-							<Link
-								href="/Find"
-								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-							>
-								FIND PGs & HOSTEL
-							</Link>
-							<Link
-								href="/Contact"
-								className="text-black hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-							>
-								CONTACT
-							</Link>
+						<div class="col-lg-5 px-5 text-end">
+							<div class="d-inline-flex align-items-center py-2">
+								<a class="me-3" href="/CommingSoon">
+									<Image
+										src="/media/googlePlay.png"
+										alt=""
+										height={20}
+										width={100}
+									/>
+								</a>
+								<a class="me-3" href="/CommingSoon">
+									<Image
+										src="/media/appStore.png"
+										alt=""
+										height={20}
+										width={100}
+									/>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div className="block">
-						<button
-							type="button"
-							className="text-white mt-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2"
-						>
-							GET APP
-						</button>
 					</div>
 
-					<div className="md:hidden flex items-center">
-						<button
-							className="inline-flex items-center justify-center rounded-md p-2 bg-gray-100 text-black  hover:text-black focus:outline-none  focus:ring-2 focus:ring-inset focus:ring-black"
-							onClick={toggleNavbar}
-						>
-							{isOpen ? (
-								<svg
-									className="h-6 w-6"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
+					<nav class="navbar navbar-expand-lg bg-dark navbar-dark text-white p-3 p-lg-0">
+						<div className="flex items-center justify-between gap-[30vw]">
+							<a href="/" class="navbar-brand d-block d-lg-none">
+								<Image
+									src="/media/smart-hostel-PG-02.png"
+									alt="logo"
+									height={80}
+									width={140}
+								/>
+							</a>
+							<button
+								type="button"
+								class="navbar-toggler"
+								// data-bs-toggle="collapse"
+								// data-bs-target="#navbarCollapse"
+								onClick={toggleNavbar}
+							>
+								{isOpen ? (
+									<svg
+										className="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M6 18L18 6M6 6l12 12"
+										/>
+									</svg>
+								) : (
+									<svg
+										className="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M4 6h16M4 12h16m-7 6h7"
+										/>
+									</svg>
+								)}
+							</button>
+						</div>
+
+						<div className="hidden lg:flex items-center gap-[11.7rem]">
+							<div className="flex items-center gap-5 justify-center  ml-10 ">
+								<Link className="hover:text-orange-500 outline-none" href="/">
+									Home
+								</Link>
+								<Link
+									className="hover:text-orange-500 outline-none"
+									href="/About"
 								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M6 18L18 6M6 6l12 12"
-									/>
-								</svg>
-							) : (
-								<svg
-									className="h-6 w-6"
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
+									About
+								</Link>
+								<Link
+									className="hover:text-orange-500 outline-none"
+									href="/Services"
 								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M4 6h16M4 12h16m-7 6h7"
-									/>
-								</svg>
-							)}
-						</button>
-					</div>
+									Features
+								</Link>
+								<Link
+									className="hover:text-orange-500 outline-none"
+									href="/Find"
+								>
+									Find PGs & Hostels
+								</Link>
+								<Link
+									className="hover:text-orange-500 outline-none"
+									href="/Contact"
+								>
+									Contact
+								</Link>
+							</div>
+							<div className="bg-orange-500 text-white  py-[1.2rem] px-[1.83rem]">
+								<button>Premium</button>
+							</div>
+						</div>
+
+						{isOpen && (
+							<div className="md:hidden">
+								<div className="px-2 pt-2  pb-3 space-y-1 sm:px-3">
+									<Link
+										href="/"
+										className="text-white font-semibold block hover:text-orange-700 rounded-lg p-2"
+									>
+										HOME
+									</Link>
+									<Link
+										href="/About"
+										className="text-white font-semibold block hover:text-orange-700 rounded-lg p-2 "
+									>
+										ABOUT
+									</Link>
+									<Link
+										href="/Services"
+										className="text-white font-semibold block hover:text-orange-700 rounded-lg p-2 "
+									>
+										FEATURES
+									</Link>
+									<Link
+										href="/Find"
+										className="text-white font-semibold block hover:text-orange-700 rounded-lg p-2 "
+									>
+										FIND PGs & HOSTEL
+									</Link>
+									<Link
+										href="/Contact"
+										className="text-white font-semibold block hover:text-orange-700 rounded-lg p-2 "
+									>
+										CONTACT
+									</Link>
+								</div>
+							</div>
+						)}
+					</nav>
 				</div>
 			</div>
-
-			{isOpen && (
-				<div className="md:hidden">
-					<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-						<Link
-							href="/"
-							className="text-black block hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-						>
-							HOME
-						</Link>
-						<Link
-							href="/About"
-							className="text-black block hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-						>
-							ABOUT
-						</Link>
-						<Link
-							href="/Services"
-							className="text-black block hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-						>
-							FEATURES
-						</Link>
-						<Link
-							href="/Find"
-							className="text-black block hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-						>
-							FIND PGs & HOSTEL
-						</Link>
-						<Link
-							href="/Contact"
-							className="text-black block hover:text-orange-700 rounded-lg p-2 hover:underline hover:underline-offset-4"
-						>
-							CONTACT
-						</Link>
-					</div>
-				</div>
-			)}
-		</nav>
+		</div>
 	);
 }
 export default Navbar;

@@ -17,10 +17,10 @@ import Services from "@/components/Services";
 const page = () => {
 	return (
 		<div>
-			{/* <Carousel /> */}
+			<Carousel />
 			<Homepage />
 			<AutomaticRent />
-			<Getapp />
+			{/* <Getapp /> */}
 
 			<Services />
 
