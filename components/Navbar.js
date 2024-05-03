@@ -31,7 +31,7 @@ function Navbar() {
 						<div class="col-lg-7 px-5 text-start">
 							<div class="h-100 d-inline-flex align-items-center py-2 me-4">
 								<i class="fa fa-envelope text-primary me-2"></i>
-								<p class="mb-0">shivom000@gmail.com</p>
+								<p class="mb-0">shivom@gmail.com</p>
 							</div>
 							<div class="h-100 d-inline-flex align-items-center py-2">
 								<i class="fa fa-phone-alt text-primary me-2"></i>
