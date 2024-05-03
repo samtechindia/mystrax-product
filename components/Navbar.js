@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
