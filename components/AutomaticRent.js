@@ -38,7 +38,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  ">
 									Easy Electricity bill collection
 								</h5>
 							</Link>
@@ -53,7 +53,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									Automatic payment reminders
 								</h5>
 							</Link>
@@ -68,7 +68,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									Backup facility on Google cloud
 								</h5>
 							</Link>
@@ -84,7 +84,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  ">
 									Expense and Sales Report
 								</h5>
 							</Link>
@@ -99,7 +99,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  ">
 									Easy record of Tenant
 								</h5>
 							</Link>
@@ -113,7 +113,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									S-mart online and digital Tenat Regestration
 								</h5>
 							</Link>
@@ -127,7 +127,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									S-mart and Digital Account
 								</h5>
 							</Link>
@@ -143,7 +143,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  ">
 									Easy managable rooms
 								</h5>
 							</Link>
@@ -157,7 +157,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight  ">
 									Tenant App : Fortransparency and easy records
 								</h5>
 							</Link>
@@ -171,7 +171,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									Easily manage employees data
 								</h5>
 							</Link>
@@ -185,7 +185,7 @@ const AutomaticRent = () => {
 								<span class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
 								<span class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-cyan-800 transition-all duration-200 group-hover:w-full"></span>
 								<span class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-cyan-800 transition-all duration-200 group-hover:h-full"></span>
-								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight dark:text-white">
+								<h5 className="mb-2 text-xl h-[4rem] font-semibold tracking-tight ">
 									Just 1 app to manage everything
 								</h5>
 							</Link>

@@ -3,14 +3,14 @@ const Search = () => {
 		<form className="lg:max-w-md lg:mx-4 lg:my-6">
 			<label
 				for="default-search"
-				className="lg:mb-2  lg:text-sm lg:font-medium lg:text-gray-900 sr-only lg:dark:text-white"
+				className="lg:mb-2  lg:text-sm lg:font-medium lg:text-gray-900 sr-only "
 			>
 				Search
 			</label>
 			<div className="relative">
 				<div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
 					<svg
-						className="w-4 h-4 text-gray-500 dark:text-gray-400"
+						className="w-4 h-4 text-gray-500 "
 						aria-hidden="true"
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -28,13 +28,13 @@ const Search = () => {
 				<input
 					type="search"
 					id="default-search"
-					className="lg:block lg:w-full lg:p-4 lg:ps-10 lg:text-sm lg:text-gray-900 border border-gray-300 rounded-lg bg-gray-50 lg:focus:ring-blue-500 lg:focus:border-blue-500 lg:dark:bg-gray-700 lg:dark:border-gray-600 lg:dark:placeholder-gray-400 lg:dark:text-white lg:dark:focus:ring-blue-500 lg:dark:focus:border-blue-500"
+					className="block w-full p-4 ps-10 lg:text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 "
 					placeholder="Search Hostels & PGs..."
 					required
 				/>
 				<button
 					type="submit"
-					className="lg:text-white lg:absolute lg:end-2.5 lg:bottom-2.5 lg:bg-[#D19C0A] lg:hover:bg-[#a07603] lg:focus:ring-4 lg:focus:outline-none lg:focus:ring-blue-300 lg:font-medium lg:rounded-lg lg:text-sm lg:px-4 lg:py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					className="text-white absolute end-2.5 bottom-5 bg-[#ED7C24] hover:bg-[#ee7111]  font-medium rounded-lg text-sm px-4 py-2 "
 				>
 					Search
 				</button>

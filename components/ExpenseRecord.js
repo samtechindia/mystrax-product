@@ -30,7 +30,6 @@ const ExpenseRecord = () => {
 							architecto
 						</p>
 					</div>
-					
 				</div>
 				<div className=" lg:w-2/3 w-full bg-[#FDFDFD]">
 					<Image

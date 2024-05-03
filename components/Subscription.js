@@ -4,28 +4,28 @@ import React from "react";
 const Subscription = () => {
 	return (
 		<div>
-			<section className="bg-white dark:bg-gray-900 relative">
+			<section className="bg-white relative">
 				<div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
 					<div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
-						<h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white font-['PP_Neue_Machina_Inktrap_Medium']">
+						<h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900  font-['PP_Neue_Machina_Inktrap_Medium']">
 							Explore our Subscription plans
 						</h2>
 					</div>
 					<div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow bo xl:p-8 ">
 							<h3 className="mb-4 text-2xl font-semibold rounded p-7 bg-blue-400 hover:bg-blue-900 hover:text-white">
 								S-mart Basic
 							</h3>
 
 							<div className="flex items-baseline justify-center my-8">
 								<span className="mr-2 text-5xl font-extrabold">Rs. 19.00</span>
-								<span className="text-gray-500 dark:text-gray-400">/year</span>
+								<span className="text-gray-500 ">/year</span>
 							</div>
 
 							<ul role="list" className="mb-8 text-xs space-y-4 text-left">
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -131,26 +131,26 @@ const Subscription = () => {
 							</ul>
 							<button
 								type="button"
-								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
 							>
 								Get Started
 							</button>
 						</div>
 
-						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow ">
 							<h3 className="mb-4 text-2xl font-semibold bg-slate-400 rounded p-7 hover:bg-slate-500 hover:text-white">
 								S-mart Silver
 							</h3>
 
 							<div className="flex items-baseline justify-center my-8">
 								<span className="mr-2 text-5xl font-extrabold">Rs. 21.25</span>
-								<span className="text-gray-500 dark:text-gray-400 ">/year</span>
+								<span className="text-gray-500 ">/year</span>
 							</div>
 
 							<ul role="list" className="mb-8 text-xs space-y-3 text-left">
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +180,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +195,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -259,7 +259,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +274,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -289,7 +289,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -307,26 +307,26 @@ const Subscription = () => {
 							</ul>
 							<button
 								type="button"
-								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
 							>
 								Get Start
 							</button>
 						</div>
 
-						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+						<div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow ">
 							<h3 className="mb-4 text-2xl font-semibold bg-yellow-500 rounded p-7 hover:bg-yellow-700  hover:text-white">
 								S-mart Gold
 							</h3>
 
 							<div className="flex items-baseline justify-center my-8">
 								<span className="mr-2 text-5xl font-extrabold">Rs.95.00</span>
-								<span className="text-gray-500 dark:text-gray-400">/years</span>
+								<span className="text-gray-500 ">/years</span>
 							</div>
 
 							<ul role="list" className="mb-8 space-y-4 text-left text-xs">
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -341,7 +341,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -356,7 +356,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +371,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -386,7 +386,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -401,7 +401,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -418,7 +418,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -433,7 +433,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -448,7 +448,7 @@ const Subscription = () => {
 								</li>
 								<li className="flex items-center space-x-3">
 									<svg
-										className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+										className="flex-shrink-0 w-5 h-5 text-green-500 "
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -464,7 +464,7 @@ const Subscription = () => {
 							</ul>
 							<button
 								type="button"
-								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+								className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
 							>
 								Get Started
 							</button>

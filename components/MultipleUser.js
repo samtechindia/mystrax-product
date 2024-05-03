@@ -12,7 +12,6 @@ const MultipleUser = () => {
 			</div>
 			<div className="flex lg:flex-row flex-col items-center justify-between w-full lg:px-10 font-['PP_Neue_Machina_Inktrap_Medium'] text-cyan-900">
 				<div className="lg:w-1/3 w-full flex flex-col gap-3 ">
-					
 					<div className="shadow ml-3 bg-[#f4fcff] hover:bg-cyan-600 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-[#9CCDD5] p-4 ">
 						<p className="text-sm  font-semibold  ">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias

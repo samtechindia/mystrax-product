@@ -3,7 +3,7 @@ import React from "react";
 
 const Contactpage = () => {
 	return (
-		<div className=" w-full">
+		<div className=" w-full lg:mt-20">
 			<div className="flex lg:flex-row flex-col items-center justify-between lg:gap-10 ">
 				<div className="lft lg:p-10 py-5 lg:w-[50vw] w-[70vw] lg:-mt-[3rem]">
 					<div className="flex items-center gap-3 mb-8 ">
@@ -72,11 +72,11 @@ const Contactpage = () => {
 						</h6>
 					</div>
 				</div>
-				<div className=" ">
+				<div>
 					<Link href="https://www.google.com/maps/dir/23.2473031,77.4816688/Shivom+Securanation,+Choudhary+Villa,+B-33,+Sector+B,+Kasturba+Nagar,+Bhopal,+Madhya+Pradesh+462023/@23.2420372,77.4204466,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x397c4269e09fe1bf:0x680f5a969dc28a6c!2m2!1d77.4400797!2d23.232504?entry=ttu">
 						<button
 							type="button"
-							className="lg:ml-[26rem] ml-12  flex items-center gap-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg  px-5 py-2.5 text-center me-2 mb-6"
+							className="lg:ml-[18rem] ml-4  flex items-center gap-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300  font-bold rounded-lg  px-5 py-2.5 text-center me-2 mb-6"
 						>
 							Visit Us
 							<svg

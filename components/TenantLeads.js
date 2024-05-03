@@ -20,7 +20,6 @@ const TenantLeads = () => {
 					/>
 				</div>
 				<div className="lg:w-1/3 w-full flex flex-col gap-3 ">
-					
 					<div className="shadow ml-3 bg-[#f4fcff] hover:bg-cyan-600 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-[#9CCDD5] p-4 ">
 						<p className="text-sm  font-semibold  ">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias

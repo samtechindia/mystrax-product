@@ -21,7 +21,6 @@ const BusinessDashboard = () => {
 				</div>
 
 				<div className="lg:w-1/3 w-full flex flex-col gap-3 ">
-					
 					<div className=" shadow  ml-3 bg-yellow-50 hover:bg-yellow-500 hover:text-white hover:ease-in-out w-[20rem] border-2 rounded-lg border-yellow-500 p-4 ">
 						<p className="text-sm  font-semibold  ">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias

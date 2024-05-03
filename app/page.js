@@ -13,6 +13,7 @@ import BusinessDashboard from "@/components/BusinessDashboard";
 import MultipleUser from "@/components/MultipleUser";
 import BillingDashboard from "@/components/BillingDashboard";
 import Services from "@/components/Services";
+import AllInOneApp from "@/components/AllInOneApp";
 
 const page = () => {
 	return (
@@ -22,6 +23,7 @@ const page = () => {
 			<AutomaticRent />
 			{/* <Getapp /> */}
 
+			{/* <AllInOneApp /> */}
 			<Services />
 
 			<MultipleUser />

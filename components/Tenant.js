@@ -2,10 +2,10 @@ import React from "react";
 
 const Tenant = () => {
 	return (
-		<div className=" w-full lg:bg-[#FFF9F4]  h-[120vh]  lg:flex lg:items-center lg:justify-center ">
+		<div className=" w-full h-full lg:bg-[#FFF9F4]    lg:flex lg:items-center lg:justify-center ">
 			<div>
 				<div className="lg:text-center">
-					<h1 className="font-bold -mt-[1rem]  text-orange-900 text-center  text-4xl font-['PP_Neue_Machina_Inktrap_Medium']">
+					<h1 className="font-bold mt-[1rem]  text-orange-900 text-center  text-4xl font-['PP_Neue_Machina_Inktrap_Medium']">
 						Experience smarter living with S-mart
 					</h1>
 					<h3 className="w-[80vw] lg:w-full pl-[4rem]  pb-6 pt-1 lg:text-lg text-sm text-center text-orange-900">
@@ -15,10 +15,10 @@ const Tenant = () => {
 				<div className="container relative flex flex-col justify-between  max-w-6xl px-10 mx-auto xl:px-0 ">
 					<div className="w-full">
 						<div className="flex flex-col lg:flex-row gap-9 w-full mb-10 ">
-							<div className="w-full sm:w-1/2">
+							<div className="w-full lg:h-[15rem] sm:w-1/2">
 								<div className="relative h-full ml-0 md:mr-10">
 									<span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-[#1A5155] rounded-lg"></span>
-									<div className="relative h-full p-5 bg-white border-2 border-[#1A5155] rounded-lg">
+									<div className="relative h-full p-4 bg-white border-2 border-[#1A5155] rounded-lg">
 										<div className="flex items-center -mt-1">
 											<h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
 												Easy Payments
@@ -35,10 +35,10 @@ const Tenant = () => {
 									</div>
 								</div>
 							</div>
-							<div className="w-full sm:w-1/2">
+							<div className="w-full lg:h-[15rem] sm:w-1/2">
 								<div className="relative h-full ml-0 md:mr-10">
 									<span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
-									<div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
+									<div className="relative h-full p-4 bg-white border-2 border-green-500 rounded-lg">
 										<div className="flex items-center -mt-1">
 											<h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
 												Easy Complaints
