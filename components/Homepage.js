@@ -1,18 +1,27 @@
 "use client";
+
+import { Typewriter, useTypewriter } from "react-simple-typewriter";
+
 import Image from "next/image";
 import React from "react";
 import Search from "./Search";
 
 const Homepage = () => {
+	const [typeEffect] = useTypewriter({
+		words: ["PGs", "Hostel"],
+		loop: {},
+		typeSpeed: 100,
+		deleteSpeed: 40,
+	});
 	return (
 		<>
 			<div>
 				<div className="lg:w-full flex lg:h-[90vh]  items-center flex-col lg:flex-row ">
 					<div className="lftcontainer lg:w-[60vw] px-[6rem]  py-[3rem]  ">
 						<h1 className="text-5xl lg:-mt-[5rem] ml-10 lg:-ml-1 font-bold lg:py-7 font-['Gillroy']">
-							S-mart way to rent your
+							S-mart way to rent your &nbsp;
 							<span className="text-[#ED7C24] font-['PP_Neue_Machina_Inktrap_Medium']">
-								&nbsp; PGs
+								{typeEffect}
 							</span>
 						</h1>
 						<p className="text-xs font-light p-4 lg:text-zinc-500 leading-tight">

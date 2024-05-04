@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
 	return (
-		<div className="bg-gray-200 px-2 py-10 font-['PP_Neue_Machina_Inktrap_Medium']">
+		<div className="decoration-none bg-gray-200 px-2 py-10 font-['PP_Neue_Machina_Inktrap_Medium']">
 			<div id="features" className="mx-auto max-w-6xl">
 				<p className="text-center text-[#b0751c] uppercase  text-base  font-bold leading-7 text-primary-500">
 					--- <span> our services</span> ---
