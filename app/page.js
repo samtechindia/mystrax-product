@@ -20,7 +20,7 @@ const page = () => {
 		<div>
 			<Carousel />
 			<Homepage />
-			<AutomaticRent />
+			{/* <AutomaticRent /> */}
 			{/* <Getapp /> */}
 
 			{/* <AllInOneApp /> */}
